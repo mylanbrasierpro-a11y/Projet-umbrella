@@ -19,6 +19,7 @@
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-extrabold: 800;
+    --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -226,11 +227,26 @@
   .w-full {
     width: 100%;
   }
+  .shrink-0 {
+    flex-shrink: 0;
+  }
   .cursor-pointer {
     cursor: pointer;
   }
+  .snap-x {
+    scroll-snap-type: x var(--tw-scroll-snap-strictness);
+  }
+  .snap-start {
+    scroll-snap-align: start;
+  }
+  .scroll-ml-6 {
+    scroll-margin-left: calc(var(--spacing) * 6);
+  }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-nowrap {
+    flex-wrap: nowrap;
   }
   .items-center {
     align-items: center;
@@ -240,6 +256,15 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
   }
   .bg-black {
     background-color: var(--color-black);
@@ -413,6 +438,11 @@
     }
   }
 }
+@property --tw-scroll-snap-strictness {
+  syntax: "*";
+  inherits: false;
+  initial-value: proximity;
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
@@ -420,6 +450,7 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-scroll-snap-strictness: proximity;
       --tw-font-weight: initial;
     }
   }
