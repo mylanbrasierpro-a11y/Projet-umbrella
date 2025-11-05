@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -7,9 +9,9 @@
   <link rel="stylesheet" href="assets/css/style-font.css">
   <title>Accueil</title>
 </head>
-<body class="bg-[linear-gradient(90deg,#000000_8%,#000000_65%,#9191FF_100%)] h-64 w-full">
+<body class="bg-[linear-gradient(90deg,#000000_8%,#000000_50%,#6619FF_78%,#000000_100%)] h-64 w-full Mont-Serra">
   <!-- HEADER -->
-  <header class="p-4  text-pubg-purple-300 md:flex md:justify-between md:px-10">
+  <header class="p-4  text-white md:flex md:justify-between md:px-10">
     <div class="flex items-center justify-between">
       <a href="#" class="text-3xl font-extrabold italic [text-shadow:10px_10px_4px_#ffffff]">ElecEvent</a>
 
@@ -27,25 +29,200 @@
     <!--PEER-CHECKED-->
     <nav class="hidden peer-checked:block bg-black w-100 md:w-auto md:bg-transparent md:block">
       <ul class="absolute z-10 md:static left-0 right-0 top-16 bg-black md:bg-transparent w-full md:w-auto md:h-auto flex flex-col md:flex-row md:gap-4 lg:gap-15 xl:gap-25 p-4 md:p-0 mt-10 md:mt-0">
-        <li><a class="block py-2 hover:underline hover:underline-offset-8" href="#">Accueil</a></li>
-        <li><a class="block py-2 hover:underline hover:underline-offset-8" href="#">Services</a></li>
-        <li><a class="block py-2 hover:underline hover:underline-offset-8" href="#">Portfolio</a></li>
-        <li><a class="block py-2 hover:underline hover:underline-offset-8" href="#">Témoignages</a></li>
-        <li><a class="block py-2 hover:underline hover:underline-offset-8" href="#">Contact & Devis</a></li>
+        <li><a class="Mont-Serra-Bold block py-2 hover:underline hover:underline-offset-8" href="#">Accueil</a></li>
+        <li><a class="Mont-Serra-Bold block py-2 hover:underline hover:underline-offset-8" href="#">Services</a></li>
+        <li><a class="Mont-Serra-Bold block py-2 hover:underline hover:underline-offset-8" href="#">Portfolio</a></li>
+        <li><a class="Mont-Serra-Bold block py-2 hover:underline hover:underline-offset-8" href="#">Témoignages</a></li>
+        <li><a class="Mont-Serra-Bold block py-2 hover:underline hover:underline-offset-8" href="#">Contact & Devis</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <!-- HERO -->
+   <main>
+      <!-- HERO -->
 <section class="relative bg-[url('/assets/img/concerthero.jpg')] bg-cover bg-center bg-no-repeat w-full min-h-[60vh] md:min-h-[80vh] flex items-center justify-center">
   <!--AFTER DARK-BG-->
   <div class="absolute inset-0 bg-black/50"></div>
-  <h1 class="relative text-2xl md:text-4xl lg:text-5xl font-extrabold 
+  <h1 class="Mont-Serra-Extrabold relative text-2xl md:text-4xl lg:text-5xl font-extrabold 
              bg-[linear-gradient(90deg,#ffffff_21%,#b200ff_88%)] bg-clip-text text-transparent">
     Vibre au rythme de la nuit.
   </h1>
 </section>
-        <section>
+
+<!-- PRESENTATION -->
+ <section class="flex flex-col p-15 gap-10 justify-center md:flex-row align-middle">
+    <div class="md:flex-1 md:flex md:align-middle md:items-center ">
+      <p class="text-white text-center Mont-Serra-Bold md:text-start md:text-sm md:flex-1">Nous sommes une agence événementielle dédiée à la culture électronique et à l’univers festif. Passionnés de 
+        musique, de lumière et d’expériences immersives, nous créons des événements qui font vibrer les corps et les 
+        esprits. De la conception à la réalisation, notre équipe met son én ergie au service de soirées uniques, où la 
+        scénographie, le son et les émotions ne font qu’un.</p>
+    </div>
+    <div class="flex justify-center md:flex-col md:flex-1">
+      <div class="-rotate-20">
+        <div class="md:flex justify-center">
+          <div class="w-40 h-40 md:p-2">
+            <img class="w-full h-full object-cover" src="assets/img/equipe.jpg" alt="">
+          </div>
+          <div class="hidden md:flex md:w-40 md:h-40 md:p-2">
+            <img class="- hidden md:flex w-full h-full object-cover" src="assets/img/equipe2.jpg" alt="">
+          </div>
+        </div>
+        <div class="hidden md:flex justify-center">
+          <div class="w-40 h-40 md:p-2">
+            <img class="w-full h-full object-cover" src="assets/img/equipe3.jpg" alt="">
+          </div>
+          <div class="w-40 h-40 md:p-2">
+            <img class="md:flex w-full h-full object-cover" src="assets/img/equipe4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+ <!-- CARROUSSEL ACCUEIL -->
+  <section class="p-15 flex flex-col items-center gap-5" >
+    <h2 class="text-white text-2xl md:text-3xl">Vibrez au rythme du son</h2>
+    <div class="flex flex-col md:flex-row items-center gap-8">
+          
+    <div class="flex items-center justify-center md:w-1/2 md:border-r-4 md:border-white">
+                <div class="snap-x overflow-x-auto flex flex-nowrap gap-1 mt-5 w-1/2">
+                    <div class="snap-start w-full shrink-0 scroll-ml-6">
+                        <img class="w-full h-full rounded-2xl" src="assets/img/carroussel1.jpg"/>
+                    </div>
+                    <div class="snap-start w-full shrink-0 scroll-ml-6">
+                        <img class="w-full h-full rounded-2xl " src="assets/img/carroussel2.jpg"/>
+                    </div>
+                    <div class="snap-start w-full shrink-0 scroll-ml-6 ">
+                        <img class="w-full h-full rounded-2xl" src="assets/img/carroussel3.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 md:max-w-2xl">
+              <p class="text-white text-center md:text-start">Plongez au cœur de l’énergie électro : une explosion de lumière, de 
+              rythme et de partage.
+              Nos festivals transforment chaque instant en une expérience sensorielle unique, où la musique unit le 
+              public dans une atmosphère électrisante.</p>
+            </div>
+    </div>
+
+  </section>
+  
+    <!-- section "nos sercice" -->
+    <section class="sm: my-0 mx-auto p-5 md:px-30">
+        <div class=" flex flex-col p-5 rounded-4x">
+            <div class="flex w-auto md:gap-20">
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%] " alt="wave electro">
+                <H2
+                    class="text-center self-center font-extrabold border-solid border-2 border-gray-300 rounded-4xl m-2 px-2 py-3 md:px-10 shadow-2xl shadow-purple-900">
+                    Nos
+                    Porpositions
+                    évenementiel</H2>
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%]  alt=">
+            </div>
+            <div class="md:flex md:gap-50">
+                <div
+                    class=" flex flex-col border-2 pt-5 pl-5 pb-10 pr-5 bg-black w-[98%] rounded-4xl text-white shadow-2xl shadow-purple-900 ">
+                    <div class="md:flex md:flex-row-reverse">
+                        <video class="md:hidden" controls autoplay muted loop>
+                            <source src="assets/video/public.mp4" type="video/mp4">
+                        </video>
+                        <div class="md:px-3">
+                            <h3 class=" text-center font-extrabold w-auto"> Événements grand public</h3>
+                            <p>Organisation de concerts, plateaux d'artistes, showcases et rencontres dédicaces en
+                                points de
+                                ventes et lieux publics (inaugurations, animations, lancement de produits...)</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div
+                    class="md:flex md:justify-center md:p-1 md:bg-black md:rounded-2xl md:shadow-2xl shadow-purple-900">
+                    <video class="md:w-full hidden md:flex md:rounded-4xl" controls autoplay muted loop>
+                        <source src="assets/video/public.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+
+
+            <div class="flex w-auto md:gap-20">
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%]" alt="">
+                <h2
+                    class="text-center text-auto font-extrabold border-solid border-2 border-gray-300 rounded-4xl m-2 px-2 md:px-10 shadow-2xl shadow-purple-900">
+                    Nos
+                    Porpositions
+                    évenementiel</h2>
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%]  alt=">
+            </div>
+            <div
+                class=" flex flox-col border-2 pt-5 pl-5 pb-10 pr-5 bg-black w-[98%] rounded-4xl text-white shadow-2xl shadow-purple-900">
+                <div class="">
+                    <img src="assets/img/Mercedes.jpg" class="rounded-4xl" alt="logos_mercedes">
+                    <h3 class=" text-center font-extrabold w-auto"> Prestations</h3>
+                    <p>Nous vous proposons des dispositifs à la carte et sur mesure pour vos événements B2B et
+                        B2C...
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="flex w-auto md:gap-20">
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%]" alt="">
+                <h2
+                    class="text-center text-auto font-extrabold border-solid border-2 border-gray-300 rounded-4xl m-2 px-2 md:px-10 shadow-2xl shadow-purple-900">
+                    Nos
+                    Porpositions
+                    évenementiel</h2>
+                <img src="assets/img/wave-removebg-preview.png" class=" w-[25%]  alt=">
+            </div>
+            <div class=" flex flox-col border-2 pt-5 pl-5 pb-10 pr-5 bg-black w-[98%] rounded-4xl text-white
+                    shadow-2xl shadow-purple-900">
+                <div class="">
+                    <img src="assets/img/vip.jpg" class="rounded-4xl" alt="logos_mercedes">
+                    <h3 class=" text-center font-extrabold w-auto"> Opérations VIP</h3>
+                    <p>les plus grands concerts, spectacles et festivals avec nos offres premium pour vos opérations
+                        de
+                        relations clients: (accueil privilégié avec hôtesses, cocktail en espace privatif, places
+                        VIP...) </p>
+                </div>
+            </div>
+
+
+
+
+            <div class="flex w-auto md:gap-20">
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%]" alt="">
+                <h2
+                    class="md:w-[35%] text-center text-auto font-extrabold border-solid border-2  border-gray-300 rounded-4xl m-2 px-2 md:px-10 shadow-2xl shadow-purple-900">
+                    Nos
+                    Porpositions
+                    évenementiel</h2>
+                <img src="assets/img/wave-removebg-preview.png" class="w-[25%]  alt=">
+            </div>
+            <div>
+                <div
+                    class=" md:w-[35%] md:h-80  border-2 pt-5 pl-5 pb-10 pr-5 bg-black w-[98%] rounded-4xl text-white shadow-2xl shadow-purple-900">
+                    <div class="flex flex-col">
+                        <div class="">
+                            <img src="assets/img/entreprise-soiree.jpeg"
+                                class="rounded-4xl md:absolute md:right-20 md:w-[35%]" alt="soirée">
+                        </div>
+                        <div>
+                            <h3 class=" text-center font-extrabold w-auto"> Événementiel Entreprise</h3>
+                        </div>
+                        <div>
+                            <p>Faites vivre à vos clients,collaborateurs avec des moments d’exception.
+                                - Concerts privés d'artistes confirmés, animations musicales,
+                                séminaires, conventions, inaugurations, soirées de gala, lancements de
+                                produits...
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+    </section>
+                  <section>
             <div class="flex items-center ">
                 <div class="snap-x overflow-x-auto flex flex-nowrap gap-1 mt-5 touch-auto">
                     <div class="snap-start w-full shrink-0 scroll-ml-6">
@@ -107,7 +284,7 @@
                 <a href="https://www.instagram.com/"><img src="assets/img/instagram (1).png" class="w-8 hover:w-10 duration-[0.1s] ease-in" alt=""></a>
             </div>
         </section>
-  </main>
+</main>
   <footer class="bg-black text-white">
     <div>
         <nav>
@@ -122,5 +299,6 @@
         </nav>
     </div>
   </footer>
-</body>
+      </body>
+
 </html>

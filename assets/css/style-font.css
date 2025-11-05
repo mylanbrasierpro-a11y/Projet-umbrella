@@ -13,14 +13,14 @@
     src: url("../font/Montserrat/static/Montserrat-ExtraBold.ttf");
 }
 
-body {
+.Mont-Serra {
     font-family: "Mont-Serra";
 }
 
-header:first-child a {
+.Mont-Serra-Bold {
     font-family: "Mont-Serra-Bold";
 }
 
-h1 {
+.Mont-Serra-Extrabold {
     font-family: "Mont-Serra-Extrabold";
 }
