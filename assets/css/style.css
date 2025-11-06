@@ -252,9 +252,12 @@
   .hidden {
     display: none;
   }
+<<<<<<< HEAD
   .inline-block {
     display: inline-block;
   }
+=======
+>>>>>>> 73dbbe0 ([NEW] more styles on presentation)
   .table {
     display: table;
   }
